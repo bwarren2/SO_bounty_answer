@@ -61,5 +61,7 @@ The C_FORCE_ROOT flag bypasses a security feature; running celery as root is usu
 
 ## Changes made
  * Fixing the colon typo
+ * Cleaning up tasks.py
+ * Using a single redis URI, rather than 3 piece and formatting.
  * Not calling the decorators
  * Some directory navigation.
