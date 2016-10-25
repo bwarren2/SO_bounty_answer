@@ -57,7 +57,7 @@ Some goofy string like:
 
 ## NOTE!
 
-The C_FORCE_ROOT flag bypasses a security feature; running celery as root is usually bad, especially when you are using pickle for your serialization (as is the default).  This implementation still needs to be secured.  This just proves it works.
+The C_FORCE_ROOT flag bypasses a security feature; running celery as root is usually bad, especially when you are using pickle for your serialization (as is the default).  This implementation still needs to be secured; I am spiking something that works.
 
 ## Changes made
  * Fixing the colon typo
